@@ -43,8 +43,9 @@ func load() {
 	} else {
 		err := viper.ReadInConfig() // Find and read the config file
 		if err != nil {             // Handle errors reading the config file
-			log.Warn("config file does not exist. You can either add a config.yaml file, or set the " + ENV_PREFIX + "_ENV envVar to prod")
+			log.Warn("config file does not exist. You can either add a config.yaml file, or set the " + ENV_PREFIX + "_ENV envVar to prod to not see this message anymore")
 		} else {
+			//seeeeeeeelf update config :wink: :wink: if you add new keys.
 			viper.WriteConfig()
 			log.Debug("Updating configuration")
 		}
