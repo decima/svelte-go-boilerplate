@@ -1,5 +1,7 @@
 # Go+Svelte boilerplate
 
+**early work in progress, some stuff are still not ok**
+
 _...and many more fun things_
 
 So. You want to create a fullstack project. good to go!
@@ -32,8 +34,10 @@ What is **not** included:
     - download a tarball of it ([let me do it for you](https://github.com/decima/svelte-go-boilerplate/archive/refs/heads/main.zip))
     - or...
     - use the "templating" feature from github ([let me do it for you](https://github.com/decima/svelte-go-boilerplate/generate))
-- There is a script named `rename.sh`, it is used to replace "BOILERPLATE" in every strings by the name you decide. Be careful to name it well (there's no turning back)
+- create a config.yaml file empty at root of the folder (it will be populated at first launch with defaults)
+- There is a script named `rename.sh` **not working**, it is used to replace "BOILERPLATE" in every strings by the name you decide. Be careful to name it well (there's no turning back)
   - run `chmod a+x rename.sh && ./rename.sh`
+  - you can either search and replace while the script is not working.
 
 So you have a fresh project how to work with it ? 
 
